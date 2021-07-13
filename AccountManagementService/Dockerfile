@@ -1,21 +1,19 @@
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
-WORKDIR /app
-EXPOSE 80
-
+# https://hub.docker.com/_/microsoft-dotnet
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
-WORKDIR /src
-COPY ["AccountManagementService/AccountManagementService.csproj", "AccountManagementService/"]
-RUN dotnet restore "AccountManagementService/AccountManagementService.csproj"
-COPY . .
-WORKDIR "/src/AccountManagementService"
-RUN dotnet build "AccountManagementService.csproj" -c Release -o /app/build
+WORKDIR /source
 
-FROM build AS publish
-RUN dotnet publish "AccountManagementService.csproj" -c Release -o /app/publish
+# copy csproj and restore as distinct layers
+COPY *.sln .
+COPY ./*.csproj ./aspnetapp/
+RUN dotnet restore
 
-FROM base AS final
+# copy everything else and build app
+COPY * ./aspnetapp/
+WORKDIR /source/aspnetapp
+RUN dotnet publish -c release -o /app --no-restore
+
+# final stage/image
+FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "AccountManagementService.dll"]
+COPY --from=build /app ./
+ENTRYPOINT ["dotnet", "aspnetapp.dll"]
