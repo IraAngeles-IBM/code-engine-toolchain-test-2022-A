@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Joseph\Documents\ILMserver\ilmVMserver\AttendanceManagement</_PublishTargetUrl>
+    <History>True|2021-05-25T06:36:34.5105001Z;True|2021-05-25T13:52:39.1901297+08:00;True|2021-05-19T10:56:54.7225855+08:00;True|2021-05-19T10:49:54.4276910+08:00;True|2021-05-19T10:41:47.5687107+08:00;</History>
+  </PropertyGroup>
+</Project>

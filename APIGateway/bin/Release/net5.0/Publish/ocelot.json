@@ -1,0 +1,882 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservices.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/CompanyBranchIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservices.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/CompanyBranchIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/CompanyIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservices.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/CompanyIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/company_view_sel",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservices.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/company_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/Registration",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservices.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/Registration"
+
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/Verification",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservices.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/Verification"
+
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_all",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_entitlement",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_entitlement",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/DropdownIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/DropdownIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view_fix",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view_fix",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_fix_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "mastertemplateservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_fix_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/modules_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantmastersetupservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/modules_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_view_entitlement",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantmastersetupservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_view_entitlement",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantmastersetupservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view_fix",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantmastersetupservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view_fix",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_fix_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantmastersetupservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_fix_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/dynamic_menu_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "permissionmanagementservice.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/dynamic_menu_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/BranchIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "branchmanagement.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/BranchIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "branchmanagement.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_ip_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "branchmanagement.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_ip_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_contact_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "branchmanagement.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_contact_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_email_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "branchmanagement.azurewebsites.net"
+
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_email_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+
+    //{
+    //  "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port":  58969
+
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
+    //}
+
+    //{
+    //  "DownstreamPathTemplate": "/api/Identity/Registration",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "identityservice1.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/Identity/Registration"
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/Dropdown_List",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "mastersettingservice.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/Dropdown_List",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+
+    //},
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/Dropdown_List_all",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "mastersettingservice.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/Dropdown_List_all",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+
+    //},
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/Dropdown_entitlement",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "mastersettingservice.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/Dropdown_entitlement",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+
+    //},
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/Dropdowntype_List",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "mastersettingservice.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/Dropdowntype_List",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/Dropdown_fix_view",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "mastersettingservice.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/Dropdown_fix_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/DropdownIU",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "mastersettingservice.azurewebsites.net"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/DropdownIU",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  },
+
+    //  {
+
+    //    "DownstreamPathTemplate": "/api/TenantManagement/CompanyIU",
+    //    "DownstreamScheme": "http",
+    //    "DownstreamHostAndPorts": [
+    //      {
+    //        "Host": "tenantmanagementservice.azurewebsites.net"
+    //      }
+    //    ],
+    //    "UpstreamPathTemplate": "/api/TenantManagement/CompanyIU",
+
+    //    "AuthenticationOptions": {
+    //      "AuthenticationProviderKey": "Bearer",
+    //      "AllowedScopes": []
+    //    }
+    //  },
+
+    //  {
+
+    //    "DownstreamPathTemplate": "/api/TenantManagement/BranchIU",
+    //    "DownstreamScheme": "http",
+    //    "DownstreamHostAndPorts": [
+    //      {
+    //        "Host": "tenantmanagementservice.azurewebsites.net"
+    //      }
+    //    ],
+    //    "UpstreamPathTemplate": "/api/TenantManagement/BranchIU",
+
+    //    "AuthenticationOptions": {
+    //      "AuthenticationProviderKey": "Bearer",
+    //      "AllowedScopes": []
+    //    }
+    //  },
+
+    //  {
+
+    //    "DownstreamPathTemplate": "/api/TenantManagement/CompanyBranchIU",
+    //    "DownstreamScheme": "http",
+    //    "DownstreamHostAndPorts": [
+    //      {
+    //        "Host": "tenantmanagementservice.azurewebsites.net"
+    //      }
+    //    ],
+    //    "UpstreamPathTemplate": "/api/TenantManagement/CompanyBranchIU",
+
+    //    "AuthenticationOptions": {
+    //      "AuthenticationProviderKey": "Bearer",
+    //      "AllowedScopes": []
+    //    }
+    //  }
+    //  //,
+
+    //  //"RateLimitOptions": {
+    //  //  "ClientWhiteList": [],
+    //  //  "EnableRateLimiting": true,
+    //  //  "Period": "5s",
+    //  //  "PeriodTimespan": 1,
+    //  //  "Limit": 1
+    //  //}
+    //},
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/MasterSetting/Menu_view",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "65478"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/MasterSetting/Menu_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //  //,
+
+    //  //"RateLimitOptions": {
+    //  //  "ClientWhiteList": [],
+    //  //  "EnableRateLimiting": true,
+    //  //  "Period": "5s",
+    //  //  "PeriodTimespan": 1,
+    //  //  "Limit": 1
+    //  //}
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/Dropdown_List",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/Dropdown_List",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/Dropdown_List_all",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/Dropdown_List_all",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/DropdownIU",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/DropdownIU",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/company_view_sel",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/company_view_sel",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/branch_view",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/branch_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/branch_ip_view",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/branch_ip_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/branch_contact_view",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/branch_contact_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/branch_email_view",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/branch_email_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/module_access_in",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/module_access_in",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/module_access_view",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/module_access_view",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/report_access_in",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/report_access_in",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //},
+
+
+    //{
+
+    //  "DownstreamPathTemplate": "/api/TenantManagement/data_upload_access_in",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": "53188"
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/api/TenantManagement/data_upload_access_in",
+
+    //  "AuthenticationOptions": {
+    //    "AuthenticationProviderKey": "Bearer",
+    //    "AllowedScopes": []
+    //  }
+    //}
+
+  ]
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Joseph\Documents\ILMserver\ilmVMserver\FilingManagement</_PublishTargetUrl>
+    <History>True|2021-05-25T06:43:25.7178209Z;True|2021-05-25T14:43:19.7432129+08:00;True|2021-05-25T14:36:51.2576442+08:00;True|2021-05-25T13:53:15.2986268+08:00;True|2021-05-24T12:36:24.3669477+08:00;True|2021-05-07T11:52:25.5818747+08:00;True|2021-05-07T11:49:20.2566377+08:00;</History>
+  </PropertyGroup>
+</Project>

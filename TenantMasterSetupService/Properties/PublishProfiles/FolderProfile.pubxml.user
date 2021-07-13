@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Illimitado\VMPublished\ilmVMserver\TenantMasterSetup</_PublishTargetUrl>
+    <History>False|2021-04-06T03:11:32.7311602Z;False|2021-04-06T11:09:42.4331007+08:00;False|2021-04-06T11:09:16.3795092+08:00;False|2021-04-06T11:09:08.1780583+08:00;False|2021-04-06T11:08:31.8081589+08:00;False|2021-04-06T11:06:18.5654213+08:00;</History>
+  </PropertyGroup>
+</Project>

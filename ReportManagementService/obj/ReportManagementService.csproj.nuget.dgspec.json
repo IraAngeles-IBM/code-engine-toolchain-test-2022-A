@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ReportManagementService\\ReportManagementService.csproj": {}
+  },
+  "projects": {
+    "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ReportManagementService\\ReportManagementService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ReportManagementService\\ReportManagementService.csproj",
+        "projectName": "ReportManagementService",
+        "projectPath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ReportManagementService\\ReportManagementService.csproj",
+        "packagesPath": "C:\\Users\\Josef\\.nuget\\packages\\",
+        "outputPath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ReportManagementService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Josef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Select.HtmlToPdf.NetCore": {
+              "target": "Package",
+              "version": "[21.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Syncfusion.HtmlToPdfConverter.QtWebKit.Net.Core": {
+              "target": "Package",
+              "version": "[19.1.0.63, )"
+            },
+            "Syncfusion.Pdf.Net.Core": {
+              "target": "Package",
+              "version": "[19.1.0.66, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

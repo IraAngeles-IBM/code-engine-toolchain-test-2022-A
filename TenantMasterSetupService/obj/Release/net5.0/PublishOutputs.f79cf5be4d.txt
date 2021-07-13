@@ -1,0 +1,17 @@
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\TenantMasterSetupService.exe
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\appsettings.json
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\TenantMasterSetupService.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\TenantMasterSetupService.deps.json
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\TenantMasterSetupService.runtimeconfig.json
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\TenantMasterSetupService.pdb
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\System.Data.SqlClient.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HR-ILM\ILMServer\ILMServer\TenantMasterSetupService\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

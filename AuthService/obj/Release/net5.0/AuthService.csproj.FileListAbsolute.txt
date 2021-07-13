@@ -1,0 +1,7 @@
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.csprojAssemblyReference.cache
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.GeneratedMSBuildEditorConfig.editorconfig
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.AssemblyInfoInputs.cache
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.AssemblyInfo.cs
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.csproj.CoreCompileInputs.cache
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.MvcApplicationPartsAssemblyInfo.cs
+D:\HR-ILM\ILMServer\ILMServer\AuthService\obj\Release\net5.0\AuthService.MvcApplicationPartsAssemblyInfo.cache
