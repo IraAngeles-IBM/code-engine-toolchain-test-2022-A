@@ -39,6 +39,7 @@ namespace AccountManagementService
             services.Configure<connectionString>(Configuration.GetSection("connectionString"));
             services.Configure<EmailSender>(Configuration.GetSection("EmailSender"));
             services.Configure<Default_Url>(Configuration.GetSection("URLDefault"));
+            services.Configure<microservices>(Configuration.GetSection("microservices"));
             services.AddScoped<IAccountManagementService, AccountManagementServices>();
 
         }

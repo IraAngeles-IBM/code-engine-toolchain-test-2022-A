@@ -105,3 +105,4 @@ D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\TimekeepingManagementServ
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\TimekeepingManagementService\obj\Debug\net5.0\ref\TimekeepingManagementService.dll
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\TimekeepingManagementService\obj\Debug\net5.0\TimekeepingManagementService.pdb
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\TimekeepingManagementService\obj\Debug\net5.0\TimekeepingManagementService.genruntimeconfig.cache
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\TimekeepingManagementService\obj\Debug\net5.0\TimekeepingManagementService.csprojAssemblyReference.cache

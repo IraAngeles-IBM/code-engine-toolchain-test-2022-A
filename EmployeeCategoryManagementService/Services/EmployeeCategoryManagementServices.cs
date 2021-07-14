@@ -325,9 +325,12 @@ namespace EmployeeCategoryManagementService.Services
                 {
 
                     //resp[0].branch_id = Crypto.url_encrypt(sdr["branch_id"].ToString());
-                    resp.id = Convert.ToInt32(sdr["is_restricted"].ToString());
+                    resp.id = 0;
+                    resp.is_restricted = Convert.ToBoolean(sdr["is_restricted"].ToString());
+                    resp.late_filing = Convert.ToBoolean(sdr["late_filing"].ToString());
                     resp.description = (sdr["remarks"].ToString());
 
+                    resp.is_save = Convert.ToBoolean(sdr["is_save"].ToString());
                 }
                 sdr.Close();
                 oConn.Close();
