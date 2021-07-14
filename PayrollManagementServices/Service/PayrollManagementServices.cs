@@ -415,7 +415,7 @@ namespace PayrollManagementService.Service
                             date_created = (dr["date_created"].ToString()),
                             tk_count = Convert.ToInt32(dr["tk_count"].ToString()),
                             payroll_basis_id = Convert.ToInt32(dr["payroll_basis_id"].ToString()),
-                            payroll_basis = (dr["payroll_basis"].ToString()),
+                            //payroll_basis = (dr["payroll_basis"].ToString()),
 
                         }).ToList();
                 oConn.Close();
