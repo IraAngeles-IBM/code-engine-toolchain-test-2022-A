@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Joseph\Documents\ILMserver\ilmVMserver\DataUploadManagement</_PublishTargetUrl>
+    <History>True|2021-05-24T06:52:39.9094529Z;True|2021-05-24T14:52:23.1511112+08:00;True|2021-05-22T09:24:27.0502788+08:00;True|2021-05-22T09:24:14.4946220+08:00;True|2021-05-21T15:22:09.3959480+08:00;</History>
+  </PropertyGroup>
+</Project>

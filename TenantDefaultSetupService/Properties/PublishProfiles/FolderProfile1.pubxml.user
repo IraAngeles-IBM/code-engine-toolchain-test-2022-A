@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Joseph\Documents\ILMserver\ilmVMserver\TenantDefaultSetup</_PublishTargetUrl>
+    <History>True|2021-04-21T01:41:54.2061334Z;True|2021-04-21T08:48:11.9712521+08:00;True|2021-04-20T13:47:10.4018446+08:00;True|2021-04-12T12:08:27.5186008+08:00;True|2021-04-10T15:24:19.8947498+08:00;True|2021-04-06T11:12:35.8447260+08:00;True|2021-04-06T11:11:25.7929941+08:00;True|2021-04-06T11:08:26.5147639+08:00;True|2021-04-06T10:37:36.2924806+08:00;False|2021-04-06T10:37:06.9266674+08:00;True|2021-04-05T12:58:49.2845977+08:00;True|2021-04-05T11:32:49.6614125+08:00;True|2021-04-05T11:31:15.7168917+08:00;</History>
+  </PropertyGroup>
+</Project>

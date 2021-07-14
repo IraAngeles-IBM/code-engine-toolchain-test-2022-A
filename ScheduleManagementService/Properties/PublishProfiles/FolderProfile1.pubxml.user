@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Joseph\Documents\ILMserver\ilmVMserver\ScheduleManagement</_PublishTargetUrl>
+    <History>True|2021-04-24T00:33:03.9861771Z;True|2021-04-23T10:23:32.0226028+08:00;True|2021-04-23T10:19:19.4371230+08:00;True|2021-04-15T17:20:04.5816477+08:00;True|2021-04-10T15:24:11.1575843+08:00;True|2021-04-08T12:17:59.2943312+08:00;True|2021-04-08T12:10:53.2665797+08:00;</History>
+  </PropertyGroup>
+</Project>

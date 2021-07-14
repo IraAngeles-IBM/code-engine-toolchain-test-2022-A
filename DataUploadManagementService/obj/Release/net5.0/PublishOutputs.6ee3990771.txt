@@ -1,0 +1,57 @@
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\DataUploadManagementService.exe
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\code\7\5\code\141616945_3847219148662641_5824075389001578566_n.jpg
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\Temp\0001\Attendance_log\sample.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\Temp\0001\Attendance_log\test.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\upload.cs
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Attendance Log.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Dropdown Template.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Employee Template.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Leave Balance Template.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Loan Template.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Official Business Template.pdf
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\wwwroot\UploadTemplate\Timekeeping Template.xlsx
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\appsettings.json
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\DataUploadManagementService.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\DataUploadManagementService.deps.json
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\DataUploadManagementService.runtimeconfig.json
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\DataUploadManagementService.pdb
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Aspose.PDF.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Autofac.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\DocumentFormat.OpenXml.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\EPPlus.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Microsoft.IO.RecyclableMemoryStream.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\OfficeOpenXml.Core.ExcelPackage.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\PdfSharp.Charting.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\PdfSharp.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Spire.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Spire.Core.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Spire.Core.Abstractions.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Spire.License.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Spire.Pdf.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Spire.XLS.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Syncfusion.Compression.Portable.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Syncfusion.Licensing.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Syncfusion.Pdf.Portable.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\System.Data.SqlClient.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\System.Diagnostics.PerformanceCounter.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\System.IO.Packaging.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\Telegram.Bot.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\de\PdfSharp.Charting.resources.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\de\PdfSharp.resources.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\DataUploadManagementService\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

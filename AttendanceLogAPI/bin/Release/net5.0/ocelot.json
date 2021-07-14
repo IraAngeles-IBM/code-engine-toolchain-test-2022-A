@@ -1,0 +1,53 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/AttendanceLogManagement/TokenRequest",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "20000"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceLogManagement/TokenRequest"
+    },
+    {
+      "DownstreamPathTemplate": "/api/AttendanceLogManagement/attendance_log_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "20000"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceLogManagement/attendance_log_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/AttendanceLogManagement/attendance_log_temp",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "20000"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceLogManagement/attendance_log_temp",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+
+
+
+
+
+
+  ]
+}
