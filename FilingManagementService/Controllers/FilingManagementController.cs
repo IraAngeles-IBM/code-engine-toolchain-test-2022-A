@@ -281,23 +281,23 @@ namespace FilingManagementService.Controllers
         {
             var resp = new InsertResponse();
 
-            string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.official_business_id  + "&module_id=35&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            //string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.official_business_id  + "&module_id=35&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
-            request.Method = "GET";
-            String returnString = String.Empty;
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                Stream dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                returnString = reader.ReadToEnd();
-                resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
-                reader.Close();
-                dataStream.Close();
-            }
+            //string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.official_business_id  + "&module_id=35&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            ////string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.official_business_id  + "&module_id=35&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            //HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
+            //request.Method = "GET";
+            //String returnString = String.Empty;
+            //using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //{
+            //    Stream dataStream = response.GetResponseStream();
+            //    StreamReader reader = new StreamReader(dataStream);
+            //    returnString = reader.ReadToEnd();
+            //    resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
+            //    reader.Close();
+            //    dataStream.Close();
+            //}
 
-            if(resp.id == 0)
-            {
+            //if(resp.id == 0)
+            //{
                 ApprovalSequenceRequest approval_req = new ApprovalSequenceRequest();
 
                 SeriesRequest req = new SeriesRequest();
@@ -366,11 +366,6 @@ namespace FilingManagementService.Controllers
                 }
 
 
-            }
-            else
-            {
-                resp.id = 0;
-            }
             return resp;
 
 
@@ -397,23 +392,23 @@ namespace FilingManagementService.Controllers
         {
             var resp = new InsertResponse();
 
-            string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.overtime_id + "&module_id=36&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            //string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.overtime_id + "&module_id=36&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
-            request.Method = "GET";
-            String returnString = String.Empty;
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                Stream dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                returnString = reader.ReadToEnd();
-                resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
-                reader.Close();
-                dataStream.Close();
-            }
+            //string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.overtime_id + "&module_id=36&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            ////string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.overtime_id + "&module_id=36&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            //HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
+            //request.Method = "GET";
+            //String returnString = String.Empty;
+            //using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //{
+            //    Stream dataStream = response.GetResponseStream();
+            //    StreamReader reader = new StreamReader(dataStream);
+            //    returnString = reader.ReadToEnd();
+            //    resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
+            //    reader.Close();
+            //    dataStream.Close();
+            //}
 
-            if (resp.id == 0)
-            {
+            //if (resp.id == 0)
+            //{
                 ApprovalSequenceRequest approval_req = new ApprovalSequenceRequest();
 
                 SeriesRequest req = new SeriesRequest();
@@ -481,13 +476,6 @@ namespace FilingManagementService.Controllers
 
                 }
 
-
-            }
-            else
-            {
-                resp.id = 0;
-            }
-
             return resp;
 
 
@@ -535,23 +523,23 @@ namespace FilingManagementService.Controllers
         {
             var resp = new InsertResponse();
 
-            string url2 = "http://localhost:1012/api/LeaveManagement/leave_restriction?series_code=" + model.series_code + "&leave_id=" + model.leave_id + "&employee_id="+ model.employee_id + "&leave_type_id=" + model.leave_type_id + "&with_pay=" + model.is_paid + "&is_half_day=" + model.is_half_day + "&with_attachment=" + model.with_attachment + "&date_from=" + model.date_from + "&date_to=" + model.date_to + "&created_by=" + model.created_by;
-            //string url2 = "http://localhost:63893/api/LeaveManagement/leave_restriction?series_code=" + model.series_code + "&employee_id="+ model.employee_id + "&leave_type_id=" + model.leave_type_id + "&with_pay=" + model.is_paid + "&is_half_day=" + model.is_half_day + "&with_attachment=" + model.with_attachment + "&date_from=" + model.date_from + "&date_to=" + model.date_to + "&created_by=" + model.created_by;
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
-            request.Method = "GET";
-            String returnString = String.Empty;
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                Stream dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                returnString = reader.ReadToEnd();
-                resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
-                reader.Close();
-                dataStream.Close();
-            }
+            //string url2 = "http://localhost:1012/api/LeaveManagement/leave_restriction?series_code=" + model.series_code + "&leave_id=" + model.leave_id + "&employee_id="+ model.employee_id + "&leave_type_id=" + model.leave_type_id + "&with_pay=" + model.is_paid + "&is_half_day=" + model.is_half_day + "&with_attachment=" + model.with_attachment + "&date_from=" + model.date_from + "&date_to=" + model.date_to + "&created_by=" + model.created_by;
+            ////string url2 = "http://localhost:63893/api/LeaveManagement/leave_restriction?series_code=" + model.series_code + "&employee_id="+ model.employee_id + "&leave_type_id=" + model.leave_type_id + "&with_pay=" + model.is_paid + "&is_half_day=" + model.is_half_day + "&with_attachment=" + model.with_attachment + "&date_from=" + model.date_from + "&date_to=" + model.date_to + "&created_by=" + model.created_by;
+            //HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
+            //request.Method = "GET";
+            //String returnString = String.Empty;
+            //using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //{
+            //    Stream dataStream = response.GetResponseStream();
+            //    StreamReader reader = new StreamReader(dataStream);
+            //    returnString = reader.ReadToEnd();
+            //    resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
+            //    reader.Close();
+            //    dataStream.Close();
+            //}
 
-            if (resp.id == 0)
-            {
+            //if (resp.id == 0)
+            //{
                 ApprovalSequenceRequest approval_req = new ApprovalSequenceRequest();
 
                 SeriesRequest req = new SeriesRequest();
@@ -620,11 +608,6 @@ namespace FilingManagementService.Controllers
                 }
 
 
-            }
-            else
-            {
-                resp.id = 0;
-            }
 
             return resp;
 
@@ -651,23 +634,23 @@ namespace FilingManagementService.Controllers
         {
             var resp = new InsertResponse();
 
-            string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.offset_id + "&module_id=37&date_from=" + model.date + "&date_to=" + model.date + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            //string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.offset_id + "&module_id=37&date_from=" + model.date + "&date_to=" + model.date + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
-            request.Method = "GET";
-            String returnString = String.Empty;
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                Stream dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                returnString = reader.ReadToEnd();
-                resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
-                reader.Close();
-                dataStream.Close();
-            }
+            //string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.offset_id + "&module_id=37&date_from=" + model.date + "&date_to=" + model.date + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            ////string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.offset_id + "&module_id=37&date_from=" + model.date + "&date_to=" + model.date + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            //HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
+            //request.Method = "GET";
+            //String returnString = String.Empty;
+            //using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //{
+            //    Stream dataStream = response.GetResponseStream();
+            //    StreamReader reader = new StreamReader(dataStream);
+            //    returnString = reader.ReadToEnd();
+            //    resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
+            //    reader.Close();
+            //    dataStream.Close();
+            //}
 
-            if (resp.id == 0)
-            {
+            //if (resp.id == 0)
+            //{
                 ApprovalSequenceRequest approval_req = new ApprovalSequenceRequest();
 
                 SeriesRequest req = new SeriesRequest();
@@ -736,11 +719,6 @@ namespace FilingManagementService.Controllers
                 }
 
 
-            }
-            else
-            {
-                resp.id = 0;
-            }
 
             return resp;
 
@@ -785,23 +763,23 @@ namespace FilingManagementService.Controllers
                 time_out = item.time_out;
 
             }
-           string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_log_id + "&module_id=33&date_from=" + time_in + "&date_to=" + time_out + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            //string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_log_id + "&module_id=33&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
-            request.Method = "GET";
-            String returnString = String.Empty;
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                Stream dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                returnString = reader.ReadToEnd();
-                resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
-                reader.Close();
-                dataStream.Close();
-            }
+           //string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_log_id + "&module_id=33&date_from=" + time_in + "&date_to=" + time_out + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+           // //string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_log_id + "&module_id=33&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+           // HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
+           // request.Method = "GET";
+           // String returnString = String.Empty;
+           // using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+           // {
+           //     Stream dataStream = response.GetResponseStream();
+           //     StreamReader reader = new StreamReader(dataStream);
+           //     returnString = reader.ReadToEnd();
+           //     resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
+           //     reader.Close();
+           //     dataStream.Close();
+           // }
 
-            if (resp.id == 0)
-            {
+            //if (resp.id == 0)
+            //{
                 ApprovalSequenceRequest approval_req = new ApprovalSequenceRequest();
 
                 SeriesRequest req = new SeriesRequest();
@@ -904,12 +882,6 @@ namespace FilingManagementService.Controllers
                 }
 
 
-            }
-            else
-            {
-                resp.id = 0;
-            }
-
             return resp;
 
 
@@ -946,23 +918,23 @@ namespace FilingManagementService.Controllers
         {
             var resp = new InsertResponse();
 
-            string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_schedule_id + "&module_id=32&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            //string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_schedule_id + "&module_id=32&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
-            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
-            request.Method = "GET";
-            String returnString = String.Empty;
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                Stream dataStream = response.GetResponseStream();
-                StreamReader reader = new StreamReader(dataStream);
-                returnString = reader.ReadToEnd();
-                resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
-                reader.Close();
-                dataStream.Close();
-            }
+            //string url2 = "http://localhost:1013/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_schedule_id + "&module_id=32&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            ////string url2 = "http://localhost:51113/api/EmployeeCategoryManagement/employee_category_restriction?series_code=" + model.series_code + "&transaction_id=" + model.change_schedule_id + "&module_id=32&date_from=" + model.date_from + "&date_to=" + model.date_to + "&category_id=" + model.category_id + "&created_by=" + model.created_by;
+            //HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(url2);
+            //request.Method = "GET";
+            //String returnString = String.Empty;
+            //using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            //{
+            //    Stream dataStream = response.GetResponseStream();
+            //    StreamReader reader = new StreamReader(dataStream);
+            //    returnString = reader.ReadToEnd();
+            //    resp = JsonConvert.DeserializeObject<InsertResponse>(returnString);
+            //    reader.Close();
+            //    dataStream.Close();
+            //}
 
-            if (resp.id == 0)
-            {
+            //if (resp.id == 0)
+            //{
                 ApprovalSequenceRequest approval_req = new ApprovalSequenceRequest();
 
                 SeriesRequest req = new SeriesRequest();
@@ -1057,12 +1029,6 @@ namespace FilingManagementService.Controllers
 
                 }
 
-
-            }
-            else
-            {
-                resp.id = 0;
-            }
 
             return resp;
 

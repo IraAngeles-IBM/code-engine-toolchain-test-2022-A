@@ -24,6 +24,7 @@ namespace FilingManagementService.Model
         public string   date_to             { get; set; }
 
         public string   approval_level_id   { get; set; }
+        public bool     late_filing              { get; set; }
         public bool     active              { get; set; }
         public string   series_code         { get; set; }
         public string   category_id         { get; set; }

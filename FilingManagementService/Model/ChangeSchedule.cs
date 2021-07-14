@@ -20,6 +20,7 @@ namespace FilingManagementService.Model
         public string series_code { get; set; }
         public string category_id { get; set; }
         public string created_by { get; set; }
+        public bool late_filing { get; set; }
 
 
     }

@@ -28,14 +28,16 @@ namespace AccountManagementService.Controllers
 
         private EmailSender email;
         private Default_Url url;
+        private microservices mc;
 
-        public AccountManagementController(IAccountManagementService AccountManagement, IOptions<EmailSender> appSettings, IOptions<Default_Url> settings)
+        public AccountManagementController(IAccountManagementService AccountManagement, IOptions<EmailSender> appSettings, IOptions<Default_Url> settings, IOptions<microservices> microservice)
         {
 
             _AccountManagementService = AccountManagement;
 
             email = appSettings.Value;
             url = settings.Value;
+            mc = microservice.Value;
         }
 
 
@@ -142,7 +144,7 @@ namespace AccountManagementService.Controllers
                 {
                     using (var wb = new WebClient())
                     {
-                        string url = "http://localhost:1008/api/UserManagement/AuthenticateLogin";
+                        string url =  mc.usermanagement + "/api/UserManagement/AuthenticateLogin";
                         //string url = "http://localhost:10001/api/UserManagement/AuthenticateLogin";
 
                         ureq.username = model.username;
@@ -202,7 +204,7 @@ namespace AccountManagementService.Controllers
                     using (var wb = new WebClient())
                     {
 
-                        string url = "http://localhost:1006/api/TenantDefaultSetup/BranchIU";
+                        string url = mc.tenant_default_setup + "/api/TenantDefaultSetup/BranchIU";
 
                         //string url = "http://localhost:10006/api/TenantDefaultSetup/BranchIU";
                         model.Branch_IU[0].company_series_code = resp.company_series_code;

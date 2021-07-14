@@ -20,6 +20,7 @@ namespace FilingManagementService.Model
         public bool     active                  {get;set;}
         public string   series_code             {get;set;}
         public string   category_id             {get;set;}
+        public bool     late_filing              { get; set; }
     }
     public class OBResponse
     {

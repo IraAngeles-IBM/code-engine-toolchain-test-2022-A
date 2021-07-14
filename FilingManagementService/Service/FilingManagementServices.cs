@@ -444,6 +444,7 @@ namespace FilingManagementService.Service
                 oCmd.Parameters.AddWithValue("@company_to_visit", model.company_to_visit);
                 oCmd.Parameters.AddWithValue("@location", model.location);
                 oCmd.Parameters.AddWithValue("@description", model.description);
+                oCmd.Parameters.AddWithValue("@late_filing", model.late_filing);
 
                 SqlDataReader dr = oCmd.ExecuteReader();
                 while (dr.Read())
@@ -593,6 +594,7 @@ namespace FilingManagementService.Service
                 oCmd.Parameters.AddWithValue("@description", model.description);
                 oCmd.Parameters.AddWithValue("@active", model.active);
                 oCmd.Parameters.AddWithValue("@created_by", created_by);
+                oCmd.Parameters.AddWithValue("@late_filing", model.late_filing);
                 SqlDataReader dr = oCmd.ExecuteReader();
                 while (dr.Read())
                 {
@@ -888,6 +890,7 @@ namespace FilingManagementService.Service
                 oCmd.Parameters.AddWithValue("@description", model.description);
                 oCmd.Parameters.AddWithValue("@active", model.active);
                 oCmd.Parameters.AddWithValue("@created_by", created_by);
+                oCmd.Parameters.AddWithValue("@late_filing", model.late_filing);
                 SqlDataReader dr = oCmd.ExecuteReader();
                 while (dr.Read())
                 {
@@ -1039,6 +1042,7 @@ namespace FilingManagementService.Service
 
                 oCmd.Parameters.AddWithValue("@active", model.active);
                 oCmd.Parameters.AddWithValue("@created_by", created_by);
+                oCmd.Parameters.AddWithValue("@late_filing", model.late_filing);
                 SqlDataReader dr = oCmd.ExecuteReader();
                 while (dr.Read())
                 {
@@ -1281,6 +1285,7 @@ namespace FilingManagementService.Service
 
                 oCmd.Parameters.AddWithValue("@active", model.active);
                 oCmd.Parameters.AddWithValue("@created_by", created_by);
+                oCmd.Parameters.AddWithValue("@late_filing", model.late_filing);
                 SqlDataReader dr = oCmd.ExecuteReader();
                 while (dr.Read())
                 {
@@ -1523,6 +1528,7 @@ namespace FilingManagementService.Service
 
                 oCmd.Parameters.AddWithValue("@active", model.active);
                 oCmd.Parameters.AddWithValue("@created_by", created_by);
+                oCmd.Parameters.AddWithValue("@late_filing", model.late_filing);
                 SqlDataReader dr = oCmd.ExecuteReader();
                 while (dr.Read())
                 {

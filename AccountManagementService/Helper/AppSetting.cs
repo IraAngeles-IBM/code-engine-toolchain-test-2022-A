@@ -29,8 +29,18 @@ namespace AccountManagementService.Helper
         public string host { get; set; }
         public int port { get; set; }
     }
-    public class Default_Url
+
+
+    public class microservices
     {
-        public string name { get; set; }
+        public string usermanagement { get; set; }
+        public string tenant_master_setup { get; set; }
+        public string tenant_default_setup { get; set; }
     }
+
+
+    public class Default_Url
+        {
+            public string name { get; set; }
+        }
 }
