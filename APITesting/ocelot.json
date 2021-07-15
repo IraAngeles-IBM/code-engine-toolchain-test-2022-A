@@ -2,11 +2,10 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
@@ -15,11 +14,10 @@
 
     {
       "DownstreamPathTemplate": "/api/AccountManagement/CompanyBranchIU",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/CompanyBranchIU",
@@ -33,11 +31,10 @@
 
     {
       "DownstreamPathTemplate": "/api/AccountManagement/CompanyIU",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/CompanyIU",
@@ -51,11 +48,10 @@
 
     {
       "DownstreamPathTemplate": "/api/AccountManagement/company_view_sel",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/company_view_sel",
@@ -69,11 +65,10 @@
 
     {
       "DownstreamPathTemplate": "/api/AccountManagement/Registration",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/Registration"
@@ -83,11 +78,10 @@
 
     {
       "DownstreamPathTemplate": "/api/AccountManagement/Verification",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/Verification"
@@ -169,11 +163,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_active_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_active_view",
@@ -187,11 +180,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_supervisor_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_supervisor_view",
@@ -205,11 +197,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_view_sel",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_view_sel",
@@ -223,11 +214,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_fetch",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_fetch",
@@ -241,11 +231,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_movement_sel",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_movement_sel",
@@ -259,11 +248,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_in_up",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_in_up",
@@ -277,11 +265,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_profile_up",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_profile_up",
@@ -295,11 +282,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_profile_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_profile_view",
@@ -313,11 +299,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_schedule_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_schedule_view",
@@ -331,11 +316,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_leave_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_leave_view",
@@ -349,11 +333,10 @@
 
     {
       "DownstreamPathTemplate": "/api/UserManagement/employee_in",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_in",
@@ -368,11 +351,10 @@
     {
 
       "DownstreamPathTemplate": "/api/UserManagement/employee_information_temp_in",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_information_temp_in",
@@ -387,11 +369,10 @@
     {
 
       "DownstreamPathTemplate": "/api/UserManagement/employee_recurring_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_recurring_view",
@@ -406,11 +387,10 @@
     {
 
       "DownstreamPathTemplate": "/api/UserManagement/employee_contribution_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_contribution_view",
@@ -425,11 +405,10 @@
     {
 
       "DownstreamPathTemplate": "/api/UserManagement/employee_adjustment_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1008"
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/UserManagement/employee_adjustment_view",
@@ -1180,11 +1159,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/DropdownIU",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1006"
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/DropdownIU",
@@ -1199,11 +1177,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "1006"
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view",
@@ -1217,11 +1194,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view_all",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view_all",
@@ -1235,11 +1211,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_view",
@@ -1253,11 +1228,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_module_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_module_view",
@@ -1272,11 +1246,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_status_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_status_view",
@@ -1290,11 +1263,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_in",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_in",
@@ -1308,11 +1280,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/series_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/series_view",
@@ -1326,11 +1297,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/series_view_next",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/series_view_next",
@@ -1344,11 +1314,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/series_up",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/series_up",
@@ -1362,11 +1331,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_header",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_header",
@@ -1379,11 +1347,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_view",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_view",
@@ -1396,11 +1363,10 @@
 
     {
       "DownstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_in",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 1006
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_in",
