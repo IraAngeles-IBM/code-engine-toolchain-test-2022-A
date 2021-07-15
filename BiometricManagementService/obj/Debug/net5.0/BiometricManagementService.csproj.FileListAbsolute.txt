@@ -1,7 +1,0 @@
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.csprojAssemblyReference.cache
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.GeneratedMSBuildEditorConfig.editorconfig
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.AssemblyInfoInputs.cache
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.AssemblyInfo.cs
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.csproj.CoreCompileInputs.cache
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.MvcApplicationPartsAssemblyInfo.cs
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\BiometricManagementService\obj\Debug\net5.0\BiometricManagementService.MvcApplicationPartsAssemblyInfo.cache

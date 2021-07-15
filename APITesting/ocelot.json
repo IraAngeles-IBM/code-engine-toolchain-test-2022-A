@@ -1,0 +1,3527 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/CompanyBranchIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/CompanyBranchIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/CompanyIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/CompanyIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/company_view_sel",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/company_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/Registration",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/Registration"
+
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/Verification",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/Verification"
+
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/LogService/system_notification_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LogService/system_notification_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/LogService/system_notification_fetch_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LogService/system_notification_fetch_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/LogService/system_fetch_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LogService/system_fetch_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/LogService/system_log_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LogService/system_log_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_active_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_active_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_supervisor_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_supervisor_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_view_sel",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_fetch",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_fetch",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_movement_sel",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_movement_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_in_up",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_profile_up",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_profile_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_profile_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_profile_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_schedule_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_schedule_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_leave_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_leave_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/UserManagement/employee_in",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+
+      "DownstreamPathTemplate": "/api/UserManagement/employee_information_temp_in",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_information_temp_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+
+      "DownstreamPathTemplate": "/api/UserManagement/employee_recurring_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_recurring_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+
+      "DownstreamPathTemplate": "/api/UserManagement/employee_contribution_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_contribution_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+
+      "DownstreamPathTemplate": "/api/UserManagement/employee_adjustment_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "usermanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/UserManagement/employee_adjustment_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_all",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_all",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_entitlement",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_view_entitlement",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/DropdownIU",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/DropdownIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_fix_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_fix_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view_fix",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_type_view_fix",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/MasterTemplateService/dropdown_fix_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1004"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/MasterTemplateService/dropdown_fix_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/modules_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/modules_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/payroll_rates_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/payroll_rates_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/sss_table_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/sss_table_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/tax_table_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/tax_table_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/philhealth_table_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/philhealth_table_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/pagibig_table_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/pagibig_table_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/modules_approval_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/modules_approval_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/module_type_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/module_type_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_view_entitlement",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_view_entitlement",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view_fix",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_type_view_fix",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_fix_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_fix_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantMasterSetup/dropdown_fix_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1007"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantMasterSetup/dropdown_fix_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/dynamic_menu_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/dynamic_menu_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/module_access_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/module_access_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/report_access_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/report_access_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/report_access_list_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/report_access_list_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_list_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_list_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/data_upload_access_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/data_upload_access_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/data_upload_access_list_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/data_upload_access_list_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/module_access_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/module_access_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/report_access_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/report_access_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/confidentiality_access_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/data_upload_access_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/data_upload_access_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PermissionManagement/approval_access_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1005"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PermissionManagement/approval_access_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/BranchIU",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1002"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/BranchIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1002"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1002"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_list",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_ip_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1002"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_ip_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_contact_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1002"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_contact_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/BranchManagement/branch_email_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "1002"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/BranchManagement/branch_email_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/DropdownIU",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/DropdownIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view_all",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_view_all",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_module_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_module_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_status_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_status_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_in",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/approval_sequence_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/series_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/series_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/series_view_next",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/series_view_next",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/series_up",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/series_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_header",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_header",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_view",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/transaction_approval_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_in",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TenantDefaultSetup/dropdown_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/HolidayManagement/HolidayIU",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1009
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HolidayManagement/HolidayIU",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/HolidayManagement/holiday_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1009
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HolidayManagement/holiday_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/HolidayManagement/holiday_branch_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1009
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HolidayManagement/holiday_branch_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/HolidayManagement/holiday_detail_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1009
+        }
+      ],
+      "UpstreamPathTemplate": "/api/HolidayManagement/holiday_detail_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_rates_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_rates_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_rates_detail_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_rates_detail_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/pagibig_table_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/pagibig_table_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/philhealth_table_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/philhealth_table_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/sss_table_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/sss_table_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/tax_table_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/tax_table_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/sss_table_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/sss_table_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/tax_table_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/tax_table_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/philhealth_table_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/philhealth_table_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/pagibig_table_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/pagibig_table_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/recurring_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/recurring_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/recurring_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/recurring_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/recurring_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/recurring_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_recurring_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_recurring_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_recurring_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_recurring_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/loan_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/loan_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/loan_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/loan_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/loan_load",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/loan_load",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/loan_detail_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/loan_detail_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_contribution_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_contribution_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_contribution_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_contribution_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/loan_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/loan_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollSetupManagement/payroll_recurring_upload_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollSetupManagement/payroll_recurring_upload_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/ScheduleManagement/shift_code_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ScheduleManagement/shift_code_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ScheduleManagement/shift_code_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ScheduleManagement/shift_code_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ScheduleManagement/shift_code_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ScheduleManagement/shift_code_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ScheduleManagement/shift_code_per_day_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ScheduleManagement/shift_code_per_day_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ScheduleManagement/shift_code_per_day_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ScheduleManagement/shift_code_per_day_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ScheduleManagement/shift_code_per_day_detail_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1011
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ScheduleManagement/shift_code_per_day_detail_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_type_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_type_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_type_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_type_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_type_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_type_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_balance_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_balance_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_employee_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_employee_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_entitlement_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_entitlement_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_restriction",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_restriction",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1013
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1013
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1013
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_restriction",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1013
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_restriction",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_schedule_detail_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_schedule_detail_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_schedule_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_schedule_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_schedule_detail_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_schedule_detail_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/attendance_log_temp_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/attendance_log_temp_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/attendance_log_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/attendance_log_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/attendance_log_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/attendance_log_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_cl_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_cl_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/attendance_log_deleted_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/attendance_log_deleted_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_dashboard_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_dashboard_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/attendance_log_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/attendance_log_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1014
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AttendanceManagement/employee_attendance_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/DataUploadManagement/attendance_log_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1015
+        }
+      ],
+      "UpstreamPathTemplate": "/api/DataUploadManagement/attendance_log_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/official_business_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/official_business_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/official_business_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/official_business_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/overtime_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/overtime_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/overtime_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/overtime_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/overtime_render_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/overtime_render_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/overtime_render_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/overtime_render_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/leave_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/leave_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/leave_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/leave_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/Offset_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/Offset_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/offset_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/offset_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/offset_detail_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/offset_detail_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_log_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_log_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_log_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_log_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_log_detail_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_log_detail_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_schedule_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_schedule_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_schedule_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_schedule_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_schedule_shift_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_schedule_shift_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_schedule_detail_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_schedule_detail_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/coe_request_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/coe_request_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/coe_request_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/coe_request_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/filing_dashboard_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/filing_dashboard_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/transaction_approval_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/transaction_approval_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_log_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_log_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/change_schedule_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/change_schedule_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/leave_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/leave_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/official_business_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/official_business_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/offset_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/offset_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/overtime_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/overtime_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/FilingManagement/transaction_cancel_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1016
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FilingManagement/transaction_cancel_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/FileManager/file_attachment_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1017
+        }
+      ],
+      "UpstreamPathTemplate": "/api/FileManager/file_attachment_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_header_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_header_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_header_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_header_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_header_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_header_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_generation_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_generation_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_generation_employee",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_generation_employee",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_in_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_in_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_detail_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_detail_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_final_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/timekeeping_final_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_header_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_header_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_header_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_header_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_adjustment_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_adjustment_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_adjustment_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_adjustment_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_generation_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_generation_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payslip_detail_temp_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payslip_detail_temp_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payslip_detail_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payslip_detail_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/timekeeping_final_temp_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/timekeeping_final_temp_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/timekeeping_final_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/timekeeping_final_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/posted_timekeeping_final_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/posted_timekeeping_final_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/timekeeping_upload",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/timekeeping_upload",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/timekeeping_upload_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/timekeeping_upload_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_view_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payroll_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payroll_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/payslip_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/payslip_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/posted_payslip_in",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/posted_payslip_in",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/posted_payslip_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/posted_payslip_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/posted_payslip_employee_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/posted_payslip_employee_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/posted_payslip_detail_employee_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/posted_payslip_detail_employee_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/posted_payslip_detail_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/posted_payslip_detail_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/ReportManagement/report_header",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1020
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ReportManagement/report_header",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/ReportManagement/report_view",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1020
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ReportManagement/report_view",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+
+
+
+
+
+
+  ]
+}
