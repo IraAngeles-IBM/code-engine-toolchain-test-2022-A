@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "1001"
+          "Port": "20001"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
@@ -2089,6 +2089,25 @@
       }
     },
 
+
+
+    {
+      "DownstreamPathTemplate": "/api/LeaveManagement/leave_restriction",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1012
+        }
+      ],
+      "UpstreamPathTemplate": "/api/LeaveManagement/leave_restriction",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
     {
       "DownstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_in_up",
       "DownstreamScheme": "http",
@@ -2133,6 +2152,23 @@
         }
       ],
       "UpstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_restriction",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1013
+        }
+      ],
+      "UpstreamPathTemplate": "/api/EmployeeCategoryManagement/employee_category_restriction",
 
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
@@ -3068,6 +3104,43 @@
 
 
     {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_up",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_up",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_sel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/TimekeepingManagement/payroll_cutoff_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+
+
+    {
       "DownstreamPathTemplate": "/api/PayrollManagement/payroll_header_in",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -3239,6 +3312,23 @@
         }
       ],
       "UpstreamPathTemplate": "/api/PayrollManagement/posted_timekeeping_final_view_sel",
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/PayrollManagement/timekeeping_upload",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1019
+        }
+      ],
+      "UpstreamPathTemplate": "/api/PayrollManagement/timekeeping_upload",
 
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
