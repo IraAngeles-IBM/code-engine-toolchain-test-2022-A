@@ -5,7 +5,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud",
+          "Port": 8080,
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
