@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FilingManagementService.Model
+namespace BiometricsManagementService.Model
 {
 
     public class AttendanceCLRequest
