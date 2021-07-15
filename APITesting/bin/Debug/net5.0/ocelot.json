@@ -2,20 +2,14 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": "20001"
+          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
     }
-
-
-
-
-
 
   ]
 }
