@@ -41,8 +41,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileManagerService", "FileM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimekeepingManagementService", "TimekeepingManagementService\TimekeepingManagementService.csproj", "{ED6563D3-0C1A-4114-AF3F-4FD177C0589B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiometricManagementService", "BiometricManagementService\BiometricManagementService.csproj", "{59372BB8-4BA9-4940-B3AC-E71AF3B0A29D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollManagementService", "PayrollManagementServices\PayrollManagementService.csproj", "{57E07CE5-2D3C-44B5-8AC5-C6D52F994BEC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttendanceLogManagementService", "AttendanceLogManagementService\AttendanceLogManagementService.csproj", "{6B1297C5-49AF-4A70-BC69-A94E1DFEBEED}"
@@ -141,10 +139,6 @@ Global
 		{ED6563D3-0C1A-4114-AF3F-4FD177C0589B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6563D3-0C1A-4114-AF3F-4FD177C0589B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6563D3-0C1A-4114-AF3F-4FD177C0589B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59372BB8-4BA9-4940-B3AC-E71AF3B0A29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59372BB8-4BA9-4940-B3AC-E71AF3B0A29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59372BB8-4BA9-4940-B3AC-E71AF3B0A29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59372BB8-4BA9-4940-B3AC-E71AF3B0A29D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{57E07CE5-2D3C-44B5-8AC5-C6D52F994BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57E07CE5-2D3C-44B5-8AC5-C6D52F994BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57E07CE5-2D3C-44B5-8AC5-C6D52F994BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU

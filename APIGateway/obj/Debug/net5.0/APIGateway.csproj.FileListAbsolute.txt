@@ -88,8 +88,6 @@ C:\Users\Joseph\Documents\ILMserver\ILMServer\APIGateway\obj\Debug\net5.0\APIGat
 C:\Users\Joseph\Documents\ILMserver\ILMServer\APIGateway\obj\Debug\net5.0\ref\APIGateway.dll
 C:\Users\Joseph\Documents\ILMserver\ILMServer\APIGateway\obj\Debug\net5.0\APIGateway.pdb
 C:\Users\Joseph\Documents\ILMserver\ILMServer\APIGateway\obj\Debug\net5.0\APIGateway.genruntimeconfig.cache
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\appsettings.Development.json
-D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\appsettings.json
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\ocelot.json
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\APIGateway.exe
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\APIGateway.deps.json
@@ -132,3 +130,6 @@ D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\obj\Debug\net5
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\obj\Debug\net5.0\ref\APIGateway.dll
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\obj\Debug\net5.0\APIGateway.pdb
 D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\obj\Debug\net5.0\APIGateway.genruntimeconfig.cache
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\obj\Debug\net5.0\APIGateway.csprojAssemblyReference.cache
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\appsettings.Development.json
+D:\HR-ILM\ILMServer\MicroserviceIBMServer\microservice\APIGateway\bin\Debug\net5.0\appsettings.json

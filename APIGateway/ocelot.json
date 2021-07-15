@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "1001"
+          "Port": "20001"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"

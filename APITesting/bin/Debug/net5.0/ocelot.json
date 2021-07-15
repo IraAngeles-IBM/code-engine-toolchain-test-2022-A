@@ -1,0 +1,21 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "20001"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
+    }
+
+
+
+
+
+
+  ]
+}
