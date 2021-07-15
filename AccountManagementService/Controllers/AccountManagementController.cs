@@ -136,39 +136,39 @@ namespace AccountManagementService.Controllers
         {
             AuthenticateResponse resp = _AccountManagementService.AuthenticateLogin(model);
             UserAuthenticateRequest ureq = new UserAuthenticateRequest();
-            try
-            {
+            //try
+            //{
 
-                string responseInString = "";
-                if (resp.series != "")
-                {
-                    using (var wb = new WebClient())
-                    {
-                        string url =  mc.usermanagement + "/api/UserManagement/AuthenticateLogin";
-                        //string url = "http://localhost:10001/api/UserManagement/AuthenticateLogin";
+            //    string responseInString = "";
+            //    if (resp.series != "")
+            //    {
+            //        using (var wb = new WebClient())
+            //        {
+            //            string url =  mc.usermanagement + "/api/UserManagement/AuthenticateLogin";
+            //            //string url = "http://localhost:10001/api/UserManagement/AuthenticateLogin";
 
-                        ureq.username = model.username;
-                        ureq.password = model.password;
-                        ureq.company_code = model.company_code;
-                        ureq.series_code = resp.series;
+            //            ureq.username = model.username;
+            //            ureq.password = model.password;
+            //            ureq.company_code = model.company_code;
+            //            ureq.series_code = resp.series;
 
-                        wb.Headers[HttpRequestHeader.ContentType] = "application/json";
-                        string Stringdata = JsonConvert.SerializeObject(ureq);
-                        responseInString = wb.UploadString(url, Stringdata);
-                        //string HtmlResult = wb.UploadValues(url, data);
+            //            wb.Headers[HttpRequestHeader.ContentType] = "application/json";
+            //            string Stringdata = JsonConvert.SerializeObject(ureq);
+            //            responseInString = wb.UploadString(url, Stringdata);
+            //            //string HtmlResult = wb.UploadValues(url, data);
 
-                        //var response = wb.UploadValues(url, "POST", data);
-                        //responseInString = Encoding.UTF8.GetString(response);
+            //            //var response = wb.UploadValues(url, "POST", data);
+            //            //responseInString = Encoding.UTF8.GetString(response);
 
 
-                    }
-                    resp = JsonConvert.DeserializeObject<AuthenticateResponse>(responseInString);
-                }
-            }
-            catch (Exception e)
-            {
-                resp.routing = "Error: " + e.Message;
-            }
+            //        }
+            //        resp = JsonConvert.DeserializeObject<AuthenticateResponse>(responseInString);
+            //    }
+            //}
+            //catch (Exception e)
+            //{
+            //    resp.routing = "Error: " + e.Message;
+            //}
 
             return resp;
 
