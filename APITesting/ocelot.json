@@ -5,7 +5,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://tenantdefaultmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+          "Host": "https://accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
