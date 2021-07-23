@@ -9,7 +9,8 @@
           "Port": 5000,
         }
       ],
-      "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast"
+      "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
+      "UpstreamHttpMethod": [ "Get" ]
     }
 
   ]
