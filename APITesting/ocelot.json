@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-          "Port": 443,
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
