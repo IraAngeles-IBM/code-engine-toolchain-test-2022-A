@@ -1,15 +1,15 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
+      "DownstreamPathTemplate": "/weatherforecast",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud",
-          "Port": 8080,
+          "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+          "Port": 5000,
         }
       ],
-      "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
+      "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast"
     }
 
   ]
