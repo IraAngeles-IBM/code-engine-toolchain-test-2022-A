@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/weatherforecast",
+      "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -9,7 +9,7 @@
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
+      "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
       "UpstreamHttpMethod": [ "Get" ]
     }
 
