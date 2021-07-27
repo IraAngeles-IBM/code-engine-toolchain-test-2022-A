@@ -10,7 +10,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get", "Post" ]
     }
 
   ]
