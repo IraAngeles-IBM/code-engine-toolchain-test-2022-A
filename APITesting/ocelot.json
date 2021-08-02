@@ -3,41 +3,42 @@
     {
       "DownstreamPathTemplate": "/api/AccountManagement/{everything}",
       "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-          "Port": 443
-        }
-      ],
+      // "DownstreamHostAndPorts": [
+      //   {
+      //     "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+      //     "Port": 443
+      //   }
+      // ],
       "UpstreamPathTemplate": "/api/AccountManagement/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post" ]
     },    
     {
       "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
       "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-          "Port": 443
-        }
-      ],
+      // "DownstreamHostAndPorts": [
+      //   {
+      //     "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+      //     "Port": 443
+      //   }
+      // ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
       "UpstreamHttpMethod": [ "Post" ]
     },       
     {
       "DownstreamPathTemplate": "/weatherforecast",
       "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-          "Port": 443
-        }
-      ],
+      // "DownstreamHostAndPorts": [
+      //   {
+      //     "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+      //     "Port": 443
+      //   }
+      // ],
       "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
   "GlobalConfiguration": {
-    "RequestIdKey": "OcRequestId"
+    "RequestIdKey": "OcRequestId",
+    "BaseUrl": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud"
   }
 }
