@@ -22,7 +22,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Post" ]
     },
     {
       "DownstreamPathTemplate": "/{everything}",
