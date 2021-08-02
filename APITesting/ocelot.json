@@ -1,39 +1,8 @@
 {
   "Routes": [
-    // {
-    //   "DownstreamPathTemplate": "/api/AccountManagement/{everything}",
-    //   "DownstreamScheme": "https",
-      // "DownstreamHostAndPorts": [
-      //   {
-      //     "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-      //     "Port": 443
-      //   }
-      // ],
-      // "UpstreamPathTemplate": "/api/AccountManagement/{everything}",
-    //   "UpstreamHttpMethod": [ "Get", "Post" ]
-    // },    
-    // {
-    //   "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
-    //   "DownstreamScheme": "https",
-      // "DownstreamHostAndPorts": [
-      //   {
-      //     "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-      //     "Port": 443
-      //   }
-      // ],
-    //   "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
-    //   "UpstreamHttpMethod": [ "Post" ]
-    // },       
     {
       "DownstreamPathTemplate": "/weatherforecast",
       "DownstreamScheme": "https",
-      // "DownstreamHostAndPorts": [
-      //   {
-      //     "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
-      //     "Port": 443
-      //   }
-      // ],
-      // "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
       "UpstreamPathTemplate": "/api/weatherforecast",
       "UpstreamHttpMethod": [ "Get" ]
     }
