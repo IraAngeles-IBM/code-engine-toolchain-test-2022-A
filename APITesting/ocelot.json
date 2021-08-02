@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/AuthenticateLogin",
+      "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
