@@ -13,7 +13,7 @@
       "UpstreamHttpMethod": [ "Get", "Post" ]
     },
     {
-      "DownstreamPathTemplate": "/weatherforecast",
+      "DownstreamPathTemplate": "/api/AccountManagement/weatherforecast",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
