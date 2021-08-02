@@ -48,5 +48,8 @@
       "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
       "UpstreamHttpMethod": [ "Get" ]
     }
-  ]
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId"
+  }
 }
