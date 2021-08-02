@@ -33,7 +33,8 @@
       //     "Port": 443
       //   }
       // ],
-      "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
+      // "UpstreamPathTemplate": "/api/AccountManagement/weatherforecast",
+      "UpstreamPathTemplate": "/api/weatherforecast",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
