@@ -5,7 +5,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+          "Host": "ams.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
           "Port": 443
         }
       ],
@@ -17,7 +17,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "account-management-service.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+          "Host": "ams.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
           "Port": 443
         }
       ],
