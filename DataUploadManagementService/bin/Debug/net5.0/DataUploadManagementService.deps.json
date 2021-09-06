@@ -9,7 +9,15 @@
       "DEBUG",
       "NET",
       "NET5_0",
-      "NETCOREAPP"
+      "NETCOREAPP",
+      "NET5_0_OR_GREATER",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "9.0",
     "platform": "",
@@ -546,11 +554,11 @@
         "runtime": {
           "lib/net20/PdfSharp.Charting.dll": {
             "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
+            "fileVersion": "0.0.0.0"
           },
           "lib/net20/PdfSharp.dll": {
             "assemblyVersion": "1.50.5147.0",
-            "fileVersion": "1.50.5147.0"
+            "fileVersion": "0.0.0.0"
           }
         },
         "resources": {
@@ -620,7 +628,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -629,7 +637,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -638,7 +646,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -694,7 +702,7 @@
         "runtime": {
           "lib/net5.0/Spire.License.dll": {
             "assemblyVersion": "1.3.8.320",
-            "fileVersion": "1.3.8.320"
+            "fileVersion": "0.0.0.0"
           },
           "lib/net5.0/Spire.Pdf.dll": {
             "assemblyVersion": "7.6.0.0",
@@ -776,7 +784,7 @@
         "runtime": {
           "lib/net5.0/Syncfusion.Licensing.dll": {
             "assemblyVersion": "19.1.0.67",
-            "fileVersion": "19.1.0.67"
+            "fileVersion": "0.0.0.0"
           }
         },
         "compile": {

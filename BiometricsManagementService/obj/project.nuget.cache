@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "VTn+gFLii+gcMFaotXTmcFSz6z2rMUyOrhcnQVxS9aCsx9XGutD1WrBSq+pO8Nx8CKGKp/XWej3UydGT0hThMg==",
+  "dgSpecHash": "ce5khubne2H4Rqc4zClm4nFfMKJUXcEmAxe20izZVf9X6yaq3SwIvA3P1aIviaLmwGlA6kiJpjtOHXb0Tgz9yA==",
   "success": true,
-  "projectFilePath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\BiometricsManagementService\\BiometricsManagementService.csproj",
+  "projectFilePath": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/BiometricsManagementService/BiometricsManagementService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Josef\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Josef\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Josef\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\Josef\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\Josef\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Josef\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/Users/isaias/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/isaias/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/isaias/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/isaias/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/isaias/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/isaias/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

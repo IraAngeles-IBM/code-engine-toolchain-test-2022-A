@@ -1,15 +1,31 @@
 {
   "Routes": [
     {
+      "DownstreamPathTemplate": "/weatherforecast",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ams.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/weatherforecast",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "accountmanagementservice.bwxq2xybdne.jp-tok.codeengine.appdomain.cloud"
+          "Host": "ams.c87fptli0uc.jp-tok.codeengine.appdomain.cloud",
+          "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/api/AccountManagement/AuthenticateLogin"
-    }
-
-  ]
+      "UpstreamPathTemplate": "/api/v1/AccountManagement/AuthenticateLogin",
+      "UpstreamHttpMethod": [ "Post" ]
+    }     
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId"
+  }
 }

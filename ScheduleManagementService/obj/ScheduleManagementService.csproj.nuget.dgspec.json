@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ScheduleManagementService\\ScheduleManagementService.csproj": {}
+    "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/ScheduleManagementService/ScheduleManagementService.csproj": {}
   },
   "projects": {
-    "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ScheduleManagementService\\ScheduleManagementService.csproj": {
+    "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/ScheduleManagementService/ScheduleManagementService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ScheduleManagementService\\ScheduleManagementService.csproj",
+        "projectUniqueName": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/ScheduleManagementService/ScheduleManagementService.csproj",
         "projectName": "ScheduleManagementService",
-        "projectPath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ScheduleManagementService\\ScheduleManagementService.csproj",
-        "packagesPath": "C:\\Users\\Josef\\.nuget\\packages\\",
-        "outputPath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\ScheduleManagementService\\obj\\",
+        "projectPath": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/ScheduleManagementService/ScheduleManagementService.csproj",
+        "packagesPath": "/Users/isaias/.nuget/packages/",
+        "outputPath": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/ScheduleManagementService/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Josef\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/isaias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\APIGateway\\APIGateway.csproj": {}
+    "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/APIGateway/APIGateway.csproj": {}
   },
   "projects": {
-    "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\APIGateway\\APIGateway.csproj": {
+    "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/APIGateway/APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\APIGateway\\APIGateway.csproj",
+        "projectUniqueName": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/APIGateway/APIGateway.csproj",
         "projectName": "APIGateway",
-        "projectPath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\APIGateway\\APIGateway.csproj",
-        "packagesPath": "C:\\Users\\Josef\\.nuget\\packages\\",
-        "outputPath": "D:\\HR-ILM\\ILMServer\\MicroserviceIBMServer\\microservice\\APIGateway\\obj\\",
+        "projectPath": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/APIGateway/APIGateway.csproj",
+        "packagesPath": "/Users/isaias/.nuget/packages/",
+        "outputPath": "/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/APIGateway/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Josef\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/isaias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
