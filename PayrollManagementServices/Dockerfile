@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
 EXPOSE 80
-
+# expose port and set optional setting in Code-engine to 80
 # copy csproj and restore as distinct layers
 # COPY *.sln .
 # COPY aspnetapp/*.csproj ./aspnetapp/
