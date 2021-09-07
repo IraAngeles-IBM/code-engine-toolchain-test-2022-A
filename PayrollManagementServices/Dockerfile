@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
 # EXPOSE 5000
 # ENV ASPNETCORE_URLS=http://*:5000
-# EXPOSE 80
+EXPOSE 80
 
 # copy csproj and restore as distinct layers
 # COPY *.sln .
