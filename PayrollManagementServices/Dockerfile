@@ -4,7 +4,7 @@ WORKDIR /source
 EXPOSE 80
 # ENV ASPNETCORE_URLS=http://*:8080
 # EXPOSE 8080
-
+# to use 8080 need to update Program.cs with useurl
 # expose port and set optional setting in Code-engine to 80
 # copy csproj and restore as distinct layers
 # COPY *.sln .
