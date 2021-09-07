@@ -1,8 +1,6 @@
 # https://hub.docker.com/_/microsoft-dotnet
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
-# EXPOSE 5000
-# ENV ASPNETCORE_URLS=http://*:5000
 EXPOSE 80
 
 # copy csproj and restore as distinct layers
@@ -20,5 +18,4 @@ RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build /app ./
-# EXPOSE 80
 ENTRYPOINT ["dotnet", "PayrollManagementService.dll"]
