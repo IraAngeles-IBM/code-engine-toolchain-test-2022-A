@@ -1,7 +1,10 @@
 # https://hub.docker.com/_/microsoft-dotnet
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
-EXPOSE 80
+# EXPOSE 80
+ENV ASPNETCORE_URLS=http://*:8080
+EXPOSE 8080
+
 # expose port and set optional setting in Code-engine to 80
 # copy csproj and restore as distinct layers
 # COPY *.sln .
