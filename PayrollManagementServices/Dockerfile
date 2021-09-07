@@ -20,5 +20,5 @@ RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build /app ./
-EXPOSE 5000
+EXPOSE 80
 ENTRYPOINT ["dotnet", "PayrollManagementService.dll"]

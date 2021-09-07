@@ -143,3 +143,10 @@ D:/HR-ILM/ILMServer/MicroserviceIBMServer/microservice/PayrollManagementServices
 /Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/obj/Release/net5.0/ref/PayrollManagementService.dll
 /Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/obj/Release/net5.0/PayrollManagementService.pdb
 /Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/obj/Release/net5.0/PayrollManagementService.genruntimeconfig.cache
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/published/web.config
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/published/appsettings.Development.json
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/published/appsettings.json
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/published/PayrollManagementService.deps.json
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/published/PayrollManagementService.runtimeconfig.json
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/Microsoft.IO.RecyclableMemoryStream.dll
+/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/PayrollManagementServices/bin/Release/net5.0/System.Xml.XPath.XmlDocument.dll
