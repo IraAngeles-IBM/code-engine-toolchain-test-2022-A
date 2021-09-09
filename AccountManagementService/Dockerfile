@@ -26,4 +26,3 @@ WORKDIR /app
 COPY --from=build /app ./
 ENTRYPOINT ["dotnet", "AccountManagementService.dll"]
 #add to trigger commit
-#
