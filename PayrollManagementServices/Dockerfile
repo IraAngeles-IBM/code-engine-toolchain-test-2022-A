@@ -2,6 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
 EXPOSE 80
+RUN apt update && rm -rf /var/lib/apt/lists/*
 # ENV ASPNETCORE_URLS=http://*:8080
 # EXPOSE 8080
 # to use 8080 need to update Program.cs with useurl
@@ -20,6 +21,7 @@ RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
+RUN apt update && rm -rf /var/lib/apt/lists/*
 COPY --from=build /app ./
 ENTRYPOINT ["dotnet", "PayrollManagementService.dll"]
 #add to trigger commit
