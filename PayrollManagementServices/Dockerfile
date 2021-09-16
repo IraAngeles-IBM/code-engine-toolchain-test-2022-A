@@ -1,8 +1,8 @@
 # https://hub.docker.com/_/microsoft-dotnet
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
-ENV ASPNETCORE_URLS=http://*:8080
-EXPOSE 8080
+# ENV ASPNETCORE_URLS=http://*:8080
+# EXPOSE 8080
 
 USER 0
 RUN chown -R 1001:0 /source && chmod -R og+rwx /source
@@ -28,15 +28,18 @@ RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
-ENV ASPNETCORE_URLS=http://*:8080
-EXPOSE 8080
+ENV ASPNETCORE_URLS=http://*:5000
+EXPOSE 5000
+# ENV ASPNETCORE_URLS=http://*:8080
+# EXPOSE 8080
 
 USER 0
 
 # RUN apt update && rm -rf /var/lib/apt/lists/*
 COPY --from=build /app ./
 
-RUN chown -R 1001:0 /app && chmod -R og+rwx /app
+# RUN chown -R 1001:0 /app && chmod -R og+rwx /app
+RUN chown -R 1001:0 /app && chmod -R 775 /app
 
 USER 1001
 
