@@ -3,9 +3,14 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /source
 ENV ASPNETCORE_URLS=http://*:8080
 EXPOSE 8080
+RUN addgroup --group user --gid 2000 \
+&& adduser \    
+    --uid 1000 \
+    --gid 2000 \
+    "user" 
 
-USER 0
-RUN chown -R 1001:0 /source && chmod -R og+rwx /source
+RUN chown user:user  /source
+USER user:user 
 # RUN apt update && rm -rf /var/lib/apt/lists/*
 # ENV ASPNETCORE_URLS=http://*:8080
 # EXPOSE 8080
@@ -15,33 +20,28 @@ RUN chown -R 1001:0 /source && chmod -R og+rwx /source
 # COPY *.sln .
 # COPY aspnetapp/*.csproj ./aspnetapp/
 COPY *.csproj ./aspnetapp/
-RUN dotnet restore ./aspnetapp
-# RUN dotnet build ./aspnetapp/
+# RUN dotnet restore ./aspnetapp
+RUN dotnet build ./aspnetapp/
 
 # copy everything else and build app
 COPY . ./aspnetapp/
-RUN chown -R 1001:0 /source/aspnetapp && chmod -R og+rwx /source/aspnetapp
-
 WORKDIR /source/aspnetapp
 RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
-ENV ASPNETCORE_URLS=http://*:8080
-EXPOSE 8080
+RUN addgroup --group user --gid 2000 \
+&& adduser \    
+    --uid 1000 \
+    --gid 2000 \
+    "user" 
 
-USER 0
-
+RUN chown user:user  /app
+USER user:user 
 # RUN apt update && rm -rf /var/lib/apt/lists/*
 COPY --from=build /app ./
-
-RUN chown -R 1001:0 /app && chmod -R og+rwx /app
-
-USER 1001
-
-
-# ENTRYPOINT ["tail", "-f", "/dev/null"]
-ENTRYPOINT ["dotnet", "PayrollManagementService.dll"]
+ENTRYPOINT ["tail", "-f", "/dev/null"]
+#ENTRYPOINT ["dotnet", "PayrollManagementService.dll"]
 #add to trigger commit
 #add demo trigger
