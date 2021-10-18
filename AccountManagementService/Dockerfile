@@ -27,4 +27,3 @@ COPY --from=build /app ./
 RUN chown -R 1001:0 /app && chmod -R 775 /app
 USER 1001
 ENTRYPOINT ["dotnet", "AccountManagementService.dll"]
-#added to test commit-push
