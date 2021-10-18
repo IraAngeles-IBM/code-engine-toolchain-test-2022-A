@@ -12,10 +12,10 @@ RUN dotnet restore ./aspnetapp
 COPY . ./aspnetapp/
 RUN chown -R 1001:0 /source/aspnetapp && chmod -R og+rwx /source/aspnetapp
 
-WORKDIR /source/aspnetapp
+# WORKDIR /source/aspnetapp
 # RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp  --no-cache
-RUN dotnet build -c release -o /app --no-restore    /restore --no-cache
-
+# RUN dotnet build -c release -o /app --no-restore    /restore --no-cache
+RUN dotnet build -c release -o /app --no-restore /source/aspnetapp  --no-cache
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
