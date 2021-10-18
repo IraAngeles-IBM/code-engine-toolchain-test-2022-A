@@ -1,7 +1,0 @@
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.csproj.AssemblyReference.cache
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.GeneratedMSBuildEditorConfig.editorconfig
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.AssemblyInfoInputs.cache
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.AssemblyInfo.cs
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.csproj.CoreCompileInputs.cache
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.MvcApplicationPartsAssemblyInfo.cs
-/Users/isaias/Documents/Projects/Developer_Advocate_Group/CODE_PATTERNS/ocelot-test/AccountManagementService/obj/Debug/net5.0/AccountManagementService.MvcApplicationPartsAssemblyInfo.cache
