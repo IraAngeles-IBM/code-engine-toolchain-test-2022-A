@@ -16,8 +16,8 @@ RUN dotnet restore ./aspnetapp/AccountManagementService.csproj
 # copy everything else and build app
 COPY . ./aspnetapp/
 WORKDIR /source/aspnetapp
-RUN dotnet publish -c release -o /app 
-# RUN dotnet publish -c release -o /app  /source/aspnetapp --no-cache
+# RUN dotnet publish -c release -o /app 
+RUN dotnet publish -c release -o /app  /source/aspnetapp --no-cache
 # RUN dotnet publish -c release -o /app --no-restore /source/aspnetapp 
 
 # final stage/image
